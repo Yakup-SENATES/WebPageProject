@@ -1,14 +1,12 @@
 <?php  
 
     $db_server="localhost";
-    $db_user="yakup";
-    $db_pass="yakup0101";
-    $db ="paylastikca";
+    $db_user="root";//you need to customize
+    $db_pass="pass";
+    $db ="paylastikca";//your database
     $conn= mysqli_connect($db_server,$db_user,$db_pass,$db);
     
-    if ($conn) {
-        echo "Bağlantı sağlantı";
-    }else {
+    if (!$conn) {
         die ("bağlantı hatası".mysqli_connect_error());
     }
 
