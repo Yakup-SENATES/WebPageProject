@@ -1,5 +1,6 @@
 # WebPageProject
- PHP.HTML5,CSS3
+ PHP.HTML5,CSS3 ;
+ 
     Database ;
  -schema name  : paylastikca . 
  -table1 : iletisim : (id,name,no,email,about,mesaj) ; 
