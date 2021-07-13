@@ -5,7 +5,7 @@
 session_start();
 
 if ($_SESSION['user']===NULL) {
-    echo "<script>window.location.href='cikis.php'</script>";
+    echo "<script>window.location.href='exit.php'</script>";
 }
 else {
     
@@ -49,11 +49,11 @@ mysqli_close($conn);
 
     <table id="customers">
         <tr>
-            <th>Ad</th>
+            <th>Name</th>
             <th>Mail</th>
             <th>No</th>
-            <th>Baslik</th>
-            <th>Mesaj</th>
+            <th>Header</th>
+            <th>Message</th>
         </tr>
 
         <?php foreach ($data as $data): ?>
