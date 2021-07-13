@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome</title>
     <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,11 +22,11 @@
     <section id="menu">
         <div id="logo">Paylaştıkça</div>
         <nav>
-            <a href="#"><i class="fas fa-home ikon"></i>AnaSayfa</a>
-            <a href="#hakkimizda"><i class="fas fa-info-circle ikon"></i>Hakkımızda</a>
-            <a href="#egitimler"><i class="fas fa-graduation-cap ikon"></i>Eğitimler</a>
-            <a href="#ekip"><i class="fas fa-users icon"></i>Ekip</a>
-            <a href="#iletisim"><i class="far fa-comment-alt ikon"></i>İletişim</a>
+            <a href="#"><i class="fas fa-home ikon"></i>Home</a>
+            <a href="#hakkimizda"><i class="fas fa-info-circle ikon"></i>About</a>
+            <a href="#egitimler"><i class="fas fa-graduation-cap ikon"></i>Tutoial</a>
+            <a href="#ekip"><i class="fas fa-users icon"></i>Team</a>
+            <a href="#iletisim"><i class="far fa-comment-alt ikon"></i>Contact</a>
         </nav>
 
     </section>
